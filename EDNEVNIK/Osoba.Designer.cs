@@ -57,56 +57,56 @@ namespace EDNEVNIK
             // textBoxId
             // 
             this.textBoxId.Enabled = false;
-            this.textBoxId.Location = new System.Drawing.Point(218, 53);
+            this.textBoxId.Location = new System.Drawing.Point(118, 31);
             this.textBoxId.Name = "textBoxId";
             this.textBoxId.Size = new System.Drawing.Size(154, 20);
             this.textBoxId.TabIndex = 0;
             // 
             // textBoxIme
             // 
-            this.textBoxIme.Location = new System.Drawing.Point(218, 79);
+            this.textBoxIme.Location = new System.Drawing.Point(118, 57);
             this.textBoxIme.Name = "textBoxIme";
             this.textBoxIme.Size = new System.Drawing.Size(154, 20);
             this.textBoxIme.TabIndex = 1;
             // 
             // textBoxPrezime
             // 
-            this.textBoxPrezime.Location = new System.Drawing.Point(218, 105);
+            this.textBoxPrezime.Location = new System.Drawing.Point(118, 83);
             this.textBoxPrezime.Name = "textBoxPrezime";
             this.textBoxPrezime.Size = new System.Drawing.Size(154, 20);
             this.textBoxPrezime.TabIndex = 2;
             // 
             // textBoxAdesa
             // 
-            this.textBoxAdesa.Location = new System.Drawing.Point(218, 131);
+            this.textBoxAdesa.Location = new System.Drawing.Point(118, 109);
             this.textBoxAdesa.Name = "textBoxAdesa";
             this.textBoxAdesa.Size = new System.Drawing.Size(154, 20);
             this.textBoxAdesa.TabIndex = 3;
             // 
             // textBoxJMBG
             // 
-            this.textBoxJMBG.Location = new System.Drawing.Point(218, 157);
+            this.textBoxJMBG.Location = new System.Drawing.Point(118, 135);
             this.textBoxJMBG.Name = "textBoxJMBG";
             this.textBoxJMBG.Size = new System.Drawing.Size(154, 20);
             this.textBoxJMBG.TabIndex = 4;
             // 
             // textBoxEmail
             // 
-            this.textBoxEmail.Location = new System.Drawing.Point(218, 183);
+            this.textBoxEmail.Location = new System.Drawing.Point(118, 161);
             this.textBoxEmail.Name = "textBoxEmail";
             this.textBoxEmail.Size = new System.Drawing.Size(154, 20);
             this.textBoxEmail.TabIndex = 5;
             // 
             // textBoxLozinka
             // 
-            this.textBoxLozinka.Location = new System.Drawing.Point(218, 209);
+            this.textBoxLozinka.Location = new System.Drawing.Point(118, 187);
             this.textBoxLozinka.Name = "textBoxLozinka";
             this.textBoxLozinka.Size = new System.Drawing.Size(154, 20);
             this.textBoxLozinka.TabIndex = 6;
             // 
             // textBoxUloga
             // 
-            this.textBoxUloga.Location = new System.Drawing.Point(218, 235);
+            this.textBoxUloga.Location = new System.Drawing.Point(118, 213);
             this.textBoxUloga.Name = "textBoxUloga";
             this.textBoxUloga.Size = new System.Drawing.Size(154, 20);
             this.textBoxUloga.TabIndex = 7;
@@ -114,7 +114,7 @@ namespace EDNEVNIK
             // lid
             // 
             this.lid.AutoSize = true;
-            this.lid.Location = new System.Drawing.Point(130, 53);
+            this.lid.Location = new System.Drawing.Point(30, 31);
             this.lid.Name = "lid";
             this.lid.Size = new System.Drawing.Size(18, 13);
             this.lid.TabIndex = 8;
@@ -123,7 +123,7 @@ namespace EDNEVNIK
             // lime
             // 
             this.lime.AutoSize = true;
-            this.lime.Location = new System.Drawing.Point(130, 79);
+            this.lime.Location = new System.Drawing.Point(30, 57);
             this.lime.Name = "lime";
             this.lime.Size = new System.Drawing.Size(24, 13);
             this.lime.TabIndex = 9;
@@ -132,7 +132,7 @@ namespace EDNEVNIK
             // lprezime
             // 
             this.lprezime.AutoSize = true;
-            this.lprezime.Location = new System.Drawing.Point(130, 105);
+            this.lprezime.Location = new System.Drawing.Point(30, 83);
             this.lprezime.Name = "lprezime";
             this.lprezime.Size = new System.Drawing.Size(44, 13);
             this.lprezime.TabIndex = 10;
@@ -141,7 +141,7 @@ namespace EDNEVNIK
             // ladresa
             // 
             this.ladresa.AutoSize = true;
-            this.ladresa.Location = new System.Drawing.Point(130, 131);
+            this.ladresa.Location = new System.Drawing.Point(30, 109);
             this.ladresa.Name = "ladresa";
             this.ladresa.Size = new System.Drawing.Size(40, 13);
             this.ladresa.TabIndex = 11;
@@ -150,7 +150,7 @@ namespace EDNEVNIK
             // ljmbg
             // 
             this.ljmbg.AutoSize = true;
-            this.ljmbg.Location = new System.Drawing.Point(130, 157);
+            this.ljmbg.Location = new System.Drawing.Point(30, 135);
             this.ljmbg.Name = "ljmbg";
             this.ljmbg.Size = new System.Drawing.Size(36, 13);
             this.ljmbg.TabIndex = 12;
@@ -159,7 +159,7 @@ namespace EDNEVNIK
             // lemail
             // 
             this.lemail.AutoSize = true;
-            this.lemail.Location = new System.Drawing.Point(130, 183);
+            this.lemail.Location = new System.Drawing.Point(30, 161);
             this.lemail.Name = "lemail";
             this.lemail.Size = new System.Drawing.Size(32, 13);
             this.lemail.TabIndex = 13;
@@ -168,7 +168,7 @@ namespace EDNEVNIK
             // lPassvord
             // 
             this.lPassvord.AutoSize = true;
-            this.lPassvord.Location = new System.Drawing.Point(130, 209);
+            this.lPassvord.Location = new System.Drawing.Point(30, 187);
             this.lPassvord.Name = "lPassvord";
             this.lPassvord.Size = new System.Drawing.Size(44, 13);
             this.lPassvord.TabIndex = 14;
@@ -177,7 +177,7 @@ namespace EDNEVNIK
             // lUloga
             // 
             this.lUloga.AutoSize = true;
-            this.lUloga.Location = new System.Drawing.Point(130, 235);
+            this.lUloga.Location = new System.Drawing.Point(30, 213);
             this.lUloga.Name = "lUloga";
             this.lUloga.Size = new System.Drawing.Size(35, 13);
             this.lUloga.TabIndex = 15;
@@ -185,7 +185,7 @@ namespace EDNEVNIK
             // 
             // buttonFirst
             // 
-            this.buttonFirst.Location = new System.Drawing.Point(28, 285);
+            this.buttonFirst.Location = new System.Drawing.Point(46, 306);
             this.buttonFirst.Name = "buttonFirst";
             this.buttonFirst.Size = new System.Drawing.Size(62, 27);
             this.buttonFirst.TabIndex = 16;
@@ -195,7 +195,7 @@ namespace EDNEVNIK
             // 
             // buttonPrev
             // 
-            this.buttonPrev.Location = new System.Drawing.Point(104, 285);
+            this.buttonPrev.Location = new System.Drawing.Point(46, 273);
             this.buttonPrev.Name = "buttonPrev";
             this.buttonPrev.Size = new System.Drawing.Size(62, 27);
             this.buttonPrev.TabIndex = 17;
@@ -205,37 +205,40 @@ namespace EDNEVNIK
             // 
             // buttonAdd
             // 
-            this.buttonAdd.Location = new System.Drawing.Point(181, 285);
+            this.buttonAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.buttonAdd.Location = new System.Drawing.Point(46, 339);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(62, 27);
             this.buttonAdd.TabIndex = 18;
             this.buttonAdd.Text = "Dodaj";
-            this.buttonAdd.UseVisualStyleBackColor = true;
+            this.buttonAdd.UseVisualStyleBackColor = false;
             this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // buttonUpdate
             // 
-            this.buttonUpdate.Location = new System.Drawing.Point(265, 285);
+            this.buttonUpdate.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.buttonUpdate.Location = new System.Drawing.Point(92, 384);
             this.buttonUpdate.Name = "buttonUpdate";
             this.buttonUpdate.Size = new System.Drawing.Size(62, 27);
             this.buttonUpdate.TabIndex = 19;
             this.buttonUpdate.Text = "Izmeni";
-            this.buttonUpdate.UseVisualStyleBackColor = true;
+            this.buttonUpdate.UseVisualStyleBackColor = false;
             this.buttonUpdate.Click += new System.EventHandler(this.buttonUpdate_Click);
             // 
             // buttonDelete
             // 
-            this.buttonDelete.Location = new System.Drawing.Point(348, 285);
+            this.buttonDelete.BackColor = System.Drawing.Color.Red;
+            this.buttonDelete.Location = new System.Drawing.Point(142, 339);
             this.buttonDelete.Name = "buttonDelete";
             this.buttonDelete.Size = new System.Drawing.Size(62, 27);
             this.buttonDelete.TabIndex = 20;
             this.buttonDelete.Text = "Brisi";
-            this.buttonDelete.UseVisualStyleBackColor = true;
+            this.buttonDelete.UseVisualStyleBackColor = false;
             this.buttonDelete.Click += new System.EventHandler(this.buttonDelete_Click);
             // 
             // buttonNext
             // 
-            this.buttonNext.Location = new System.Drawing.Point(426, 285);
+            this.buttonNext.Location = new System.Drawing.Point(142, 273);
             this.buttonNext.Name = "buttonNext";
             this.buttonNext.Size = new System.Drawing.Size(62, 27);
             this.buttonNext.TabIndex = 21;
@@ -245,7 +248,7 @@ namespace EDNEVNIK
             // 
             // buttonLast
             // 
-            this.buttonLast.Location = new System.Drawing.Point(507, 285);
+            this.buttonLast.Location = new System.Drawing.Point(142, 306);
             this.buttonLast.Name = "buttonLast";
             this.buttonLast.Size = new System.Drawing.Size(62, 27);
             this.buttonLast.TabIndex = 22;
@@ -257,7 +260,8 @@ namespace EDNEVNIK
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.ClientSize = new System.Drawing.Size(336, 450);
             this.Controls.Add(this.buttonLast);
             this.Controls.Add(this.buttonNext);
             this.Controls.Add(this.buttonDelete);
