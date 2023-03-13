@@ -42,6 +42,7 @@ namespace EDNEVNIK
             this.tabelaSaFkToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.izvestajiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.l_user = new System.Windows.Forms.Label();
+            this.oceneToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,14 +71,15 @@ namespace EDNEVNIK
             // osobaToolStripMenuItem
             // 
             this.osobaToolStripMenuItem.Name = "osobaToolStripMenuItem";
-            this.osobaToolStripMenuItem.Size = new System.Drawing.Size(108, 22);
+            this.osobaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.osobaToolStripMenuItem.Text = "Osoba";
             this.osobaToolStripMenuItem.Click += new System.EventHandler(this.osobaToolStripMenuItem_Click);
             // 
             // jedanSlogSaFkToolStripMenuItem
             // 
             this.jedanSlogSaFkToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.raspodelaToolStripMenuItem});
+            this.raspodelaToolStripMenuItem,
+            this.oceneToolStripMenuItem});
             this.jedanSlogSaFkToolStripMenuItem.Name = "jedanSlogSaFkToolStripMenuItem";
             this.jedanSlogSaFkToolStripMenuItem.Size = new System.Drawing.Size(101, 20);
             this.jedanSlogSaFkToolStripMenuItem.Text = "Jedan slog sa fk";
@@ -85,7 +87,7 @@ namespace EDNEVNIK
             // raspodelaToolStripMenuItem
             // 
             this.raspodelaToolStripMenuItem.Name = "raspodelaToolStripMenuItem";
-            this.raspodelaToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.raspodelaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.raspodelaToolStripMenuItem.Text = "Raspodela";
             this.raspodelaToolStripMenuItem.Click += new System.EventHandler(this.raspodelaToolStripMenuItem_Click);
             // 
@@ -149,6 +151,13 @@ namespace EDNEVNIK
             this.l_user.TabIndex = 1;
             this.l_user.Text = "label1";
             // 
+            // oceneToolStripMenuItem
+            // 
+            this.oceneToolStripMenuItem.Name = "oceneToolStripMenuItem";
+            this.oceneToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.oceneToolStripMenuItem.Text = "Ocene";
+            this.oceneToolStripMenuItem.Click += new System.EventHandler(this.oceneToolStripMenuItem_Click);
+            // 
             // Glavni_meni
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -184,5 +193,6 @@ namespace EDNEVNIK
         private System.Windows.Forms.ToolStripMenuItem predmetiToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem osobeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem raspodelaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem oceneToolStripMenuItem;
     }
 }
